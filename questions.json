@@ -1,0 +1,74 @@
+{
+  "Computer Science": [
+    { "question": "1. What does HTML stand for?", "options": ["(a) Hyper Text Markup Language", "(b) Home Tool Markup Language", "(c) Hyperlinks and Text Markup Language"], "answer": "(a) Hyper Text Markup Language" },
+    { "question": "2. Which language is used for styling web pages?", "options": ["(a) HTML", "(b) CSS", "(c) Python"], "answer": "(b) CSS" },
+    { "question": "3. Which of the following is a programming language?", "options": ["(a) HTTP", "(b) Python", "(c) HTML"], "answer": "(b) Python" },
+    { "question": "4. What does CPU stand for?", "options": ["(a) Central Processing Unit", "(b) Computer Personal Unit", "(c) Central Performance Unit"], "answer": "(a) Central Processing Unit" },
+    { "question": "5. Which of these is a database management system?", "options": ["(a) MySQL", "(b) HTML", "(c) CSS"], "answer": "(a) MySQL" },
+    { "question": "6. What is the main function of an operating system?", "options": ["(a) Manage hardware and software resources", "(b) Write code for applications", "(c) Connect to the internet"], "answer": "(a) Manage hardware and software resources" },
+    { "question": "7. Which of the following is a markup language?", "options": ["(a) Python", "(b) HTML", "(c) C++"], "answer": "(b) HTML" },
+    { "question": "8. What does RAM stand for?", "options": ["(a) Random Access Memory", "(b) Readily Available Memory", "(c) Rapid Access Memory"], "answer": "(a) Random Access Memory" },
+    { "question": "9. Which data structure uses LIFO (Last In First Out)?", "options": ["(a) Queue", "(b) Stack", "(c) Array"], "answer": "(b) Stack" },
+    { "question": "10. Which of the following is used to create interactive web pages?", "options": ["(a) HTML", "(b) CSS", "(c) JavaScript"], "answer": "(c) JavaScript" }
+  ],
+  "General Knowledge": [
+    { "question": "1. Which planet is known as the Red Planet?", "options": ["Earth", "Mars", "Jupiter"], "answer": "Mars" },
+    { "question": "2. Who wrote the national anthem of India?", "options": ["Rabindranath Tagore", "Bankim Chandra Chatterjee", "Sarojini Naidu"], "answer": "Rabindranath Tagore" },
+    { "question": "3. What is the currency of Japan?", "options": ["Yen", "Dollar", "Euro"], "answer": "Yen" },
+    { "question": "4. Which is the largest continent?", "options": ["Asia", "Africa", "Europe"], "answer": "Asia" },
+    { "question": "5. Who invented the telephone?", "options": ["Alexander Graham Bell", "Thomas Edison", "Nikola Tesla"], "answer": "Alexander Graham Bell" },
+    { "question": "6. How many colors are there in a rainbow?", "options": ["6", "7", "8"], "answer": "7" },
+    { "question": "7. What is the chemical symbol for water?", "options": ["O2", "H2O", "CO2"], "answer": "H2O" },
+    { "question": "8. Which ocean is the largest?", "options": ["Atlantic", "Indian", "Pacific"], "answer": "Pacific" },
+    { "question": "9. Who was the first man to step on the moon?", "options": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin"], "answer": "Neil Armstrong" },
+    { "question": "10. Which country is known as the Land of the Rising Sun?", "options": ["China", "Japan", "Thailand"], "answer": "Japan" }
+  ],
+  "History": [
+    { "question": "1. Who was the first President of the United States?", "options": ["George Washington", "Thomas Jefferson", "Abraham Lincoln"], "answer": "George Washington" },
+    { "question": "2. In which year did World War II end?", "options": ["1945", "1939", "1918"], "answer": "1945" },
+    { "question": "3. Who discovered America?", "options": ["Christopher Columbus", "Leif Erikson", "Marco Polo"], "answer": "Christopher Columbus" },
+    { "question": "4. Which empire built the Colosseum?", "options": ["Roman Empire", "Greek Empire", "Ottoman Empire"], "answer": "Roman Empire" },
+    { "question": "5. Who was known as the Iron Man of India?", "options": ["Jawaharlal Nehru", "Sardar Vallabhbhai Patel", "Mahatma Gandhi"], "answer": "Sardar Vallabhbhai Patel" },
+    { "question": "6. When did India gain independence?", "options": ["1947", "1950", "1935"], "answer": "1947" },
+    { "question": "7. Who was the first female Prime Minister of the UK?", "options": ["Theresa May", "Margaret Thatcher", "Indira Gandhi"], "answer": "Margaret Thatcher" },
+    { "question": "8. What was the main language of the Roman Empire?", "options": ["Greek", "Latin", "Arabic"], "answer": "Latin" },
+    { "question": "9. Who wrote the 'Iliad' and 'Odyssey'?", "options": ["Homer", "Socrates", "Plato"], "answer": "Homer" },
+    { "question": "10. Which revolution is known as the 'French Revolution'?", "options": ["1789 Revolution", "American Revolution", "Russian Revolution"], "answer": "1789 Revolution" }
+  ],
+  "Geography": [
+    { "question": "1. What is the capital of France?", "options": ["Paris", "London", "Berlin"], "answer": "Paris" },
+    { "question": "2. Which river is the longest in the world?", "options": ["Nile", "Amazon", "Yangtze"], "answer": "Nile" },
+    { "question": "3. Mount Everest is located in which country?", "options": ["Nepal", "China", "India"], "answer": "Nepal" },
+    { "question": "4. Which desert is the largest in the world?", "options": ["Sahara", "Gobi", "Kalahari"], "answer": "Sahara" },
+    { "question": "5. Which is the smallest country in the world?", "options": ["Vatican City", "Monaco", "San Marino"], "answer": "Vatican City" },
+    { "question": "6. Which country has the largest population?", "options": ["China", "India", "USA"], "answer": "India" },
+    { "question": "7. Which ocean touches the east coast of the USA?", "options": ["Atlantic", "Pacific", "Indian"], "answer": "Atlantic" },
+    { "question": "8. Which is the longest mountain range?", "options": ["Andes", "Himalayas", "Rockies"], "answer": "Andes" },
+    { "question": "9. Which continent is Australia part of?", "options": ["Oceania", "Asia", "Europe"], "answer": "Oceania" },
+    { "question": "10. What is the capital of Canada?", "options": ["Toronto", "Ottawa", "Vancouver"], "answer": "Ottawa" }
+  ],
+  "Sports": [
+    { "question": "1. How many players are there in a football team?", "options": ["11", "10", "12"], "answer": "11" },
+    { "question": "2. Which country won the FIFA World Cup in 2018?", "options": ["Germany", "Brazil", "France"], "answer": "France" },
+    { "question": "3. Who holds the record for most goals in football?", "options": ["Cristiano Ronaldo", "Lionel Messi", "Pele"], "answer": "Cristiano Ronaldo" },
+    { "question": "4. How many rings are there in the Olympic symbol?", "options": ["4", "5", "6"], "answer": "5" },
+    { "question": "5. Which sport is known as the 'king of sports'?", "options": ["Football", "Cricket", "Basketball"], "answer": "Football" },
+    { "question": "6. In which sport is Serena Williams famous?", "options": ["Tennis", "Badminton", "Squash"], "answer": "Tennis" },
+    { "question": "7. Which country hosted the 2016 Summer Olympics?", "options": ["China", "Brazil", "UK"], "answer": "Brazil" },
+    { "question": "8. Who won the NBA MVP in 2020?", "options": ["LeBron James", "Giannis Antetokounmpo", "Kobe Bryant"], "answer": "Giannis Antetokounmpo" },
+    { "question": "9. Which player is known as 'The GOAT' in basketball?", "options": ["Michael Jordan", "LeBron James", "Kobe Bryant"], "answer": "Michael Jordan" },
+    { "question": "10. Which sport uses a shuttlecock?", "options": ["Tennis", "Badminton", "Squash"], "answer": "Badminton" }
+  ],
+  "Science": [
+    { "question": "1. What is the chemical symbol for Hydrogen?", "options": ["H", "He", "O"], "answer": "H" },
+    { "question": "2. What planet is known as the Morning Star?", "options": ["Venus", "Mars", "Jupiter"], "answer": "Venus" },
+    { "question": "3. What is the speed of light?", "options": ["3x10^8 m/s", "3x10^6 m/s", "3x10^5 km/s"], "answer": "3x10^8 m/s" },
+    { "question": "4. Who developed the theory of relativity?", "options": ["Albert Einstein", "Isaac Newton", "Galileo Galilei"], "answer": "Albert Einstein" },
+    { "question": "5. What is the center of an atom called?", "options": ["Nucleus", "Electron", "Proton"], "answer": "Nucleus" },
+    { "question": "6. What gas do plants produce during photosynthesis?", "options": ["Oxygen", "Carbon Dioxide", "Nitrogen"], "answer": "Oxygen" },
+    { "question": "7. What is the boiling point of water?", "options": ["100°C", "90°C", "80°C"], "answer": "100°C" },
+    { "question": "8. What is the unit of electric current?", "options": ["Ampere", "Volt", "Ohm"], "answer": "Ampere" },
+    { "question": "9. Which organ pumps blood in the human body?", "options": ["Heart", "Liver", "Kidney"], "answer": "Heart" },
+    { "question": "10. What is H2O commonly known as?", "options": ["Water", "Hydrogen Peroxide", "Ice"], "answer": "Water" }
+  ]
+}

@@ -1,0 +1,234 @@
+/* General Page Setup */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #abff5d;
+}
+
+/* Header */
+header {
+  padding: 40px;
+  width: 1360px;
+  background: #286281;
+  color: rgb(255, 255, 255);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header h3 {
+  margin-top: 15px;
+  font-style: italic;
+}
+
+/* Sections Layout */
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 column per row */
+  gap: 60px;
+  margin: 80px;
+  width: 1280px;
+  justify-items: center; /* center cards inside grid */
+}
+
+/* Section Cards */
+section {
+  background: rgb(255, 250, 25);
+  padding: 30px;
+  width: 300px;
+  border-radius:15px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+section:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* Section Heading */
+section h2 {
+  font-size: 1.8rem;
+  margin-top: 10px;
+  margin-bottom:20px;
+  color: #97079c;
+}
+
+/* Buttons */
+button {
+  background: #0e3944;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #023e8a;
+}
+
+/* Quiz Area */
+.quiz-area {
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  min-height: 80vh;         /* fill most of screen under header */
+  text-align: center;
+  margin: 0;                /* remove extra margin */
+}
+
+.quiz-area h2 {
+  font-size: 2.4rem;
+  margin-bottom: 50px;
+  color: #286281;
+}
+
+.quiz-area p {
+  font-size: 1.6rem;
+  color: #333;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.quiz-box {
+  background: rgb(245, 245, 55);
+  padding: 20px;
+  width: 85%;     
+  max-width: 1200px;
+  min-height: 500px;    
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: 0.3s;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0px; 
+  align-items: center;  
+  justify-content: center; 
+  text-align: center;
+  overflow-y: auto;        
+  word-wrap: break-word;   
+
+  margin: 0 auto;          /* ⬅ keep it centered horizontally */
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+#result-box {
+  text-align: center;
+  animation: fadeIn 0.5s ease-in-out;
+}
+#home-btn {
+  background-color: #0078d7;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+#home-btn:hover {
+  background-color: #005ea2;
+}
+
+#options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+#options-container button {
+  background: #0e3944;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+#options-container button:hover {
+  transform: scale(1.05);
+  background: #023e8a;
+  color: white;
+}
+
+.fade-out {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#progress-bar-container {
+  width: 100%;
+  height: 10px;
+  background: #ddd;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#progress-bar {
+  height: 10px;
+  width: 0%;
+  background: #4CAF50;
+  border-radius: 10px;
+  transition: width 0.4s ease;
+  border-radius: 5px;
+}
+
+#timer {
+  font-weight: bold;
+  color: white;
+  font-size: 1.2rem;
+  background: #222;
+  padding: 6px 12px;
+  border-radius: 8px;
+  display: inline-block;
+  margin: 10px 0;
+}
+
+/* ------------------- RESPONSIVE ------------------- */
+@media (max-width: 1024px) {
+  main {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for tablet/laptop */
+    gap: 40px;
+    margin: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    grid-template-columns: repeat(1, 1fr); /* 1 column for phone */
+    gap: 30px;
+    margin: 30px;
+  }
+
+  section {
+    width: 90%; /* cards expand */
+    padding: 30px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header h3 {
+    font-size: 1rem;
+  }
+}

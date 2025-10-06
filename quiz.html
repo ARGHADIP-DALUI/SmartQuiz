@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartQuiz - Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1 id="quiz-title">Loading Quiz...</h1>
+    <h3>Answer carefully and check your knowledge!</h3>
+  </header>
+
+  <main class="quiz-area">
+    <!-- Quiz Section -->
+    <section class="quiz-box">
+      <!-- 🆕 Question Counter -->
+      <p id="question-counter" style="font-weight: bold; color: #0e3944; margin-bottom: 10px;"></p>
+
+      <h2>Question Area</h2>
+      <p id="question-text">Questions will appear here soon...</p>
+
+      <!-- Options will be added dynamically -->
+      <div id="options-container"></div>
+
+      <!-- Feedback -->
+      <p id="feedback"></p>
+      
+      <!-- Timer Display -->
+      <div id="timer-container">
+        <h3>⏱ Time Left: <span id="timer">--:--</span></h3>
+      </div>
+
+      <!-- 🆕 Progress Bar -->
+      <div id="progress-bar-container">
+        <div id="progress-bar"></div>
+      </div>
+
+      <!-- Navigation Buttons -->
+      <div class="navigation">
+        <button id="prev-btn">⬅ Previous</button>
+        <button id="next-btn">Next ➡</button>
+      </div>
+    </section>
+
+    <!-- Result Section -->
+    <section class="quiz-box" id="result-box" style="display: none;">
+      <h2>Quiz Finished!</h2>
+      <p id="final-score"></p>
+      <p id="final-percentage"></p>
+      <!-- Home Button -->
+      <button id="home-btn">🏠 Home</button>
+    </section>
+  </main>
+
+  <script>
+    // Read category from URL
+    const params = new URLSearchParams(window.location.search);
+    const category = params.get("category");
+
+    // Update title dynamically
+    const titleEl = document.getElementById("quiz-title");
+    if (category) {
+      titleEl.textContent = `Welcome to the ${category} Quiz!`;
+    } else {
+      titleEl.textContent = "Welcome to the Quiz!";
+    }
+
+    // Home button handler
+    document.addEventListener("DOMContentLoaded", () => {
+      const homeBtn = document.getElementById("home-btn");
+      if (homeBtn) {
+        homeBtn.addEventListener("click", () => {
+          window.location.href = "index.html"; // ✅ Redirect to home page
+        });
+      }
+    });
+  </script>
+
+  <!-- External Script -->
+  <script src="script.js"></script>
+</body>
+</html>
