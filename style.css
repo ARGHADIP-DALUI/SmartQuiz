@@ -8,10 +8,12 @@ body {
 
 /* Header */
 header {
-  padding: 40px;
-  width: 1360px;
+  padding: 30px 40px;
+  width: 94.35%;
   background: #286281;
   color: rgb(255, 255, 255);
+  justify-content: space-between; /* button spread */
+  align-items: center;
 }
 
 header h1 {
@@ -24,22 +26,26 @@ header h3 {
   font-style: italic;
 }
 
+
 /* Sections Layout */
 main {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 column per row */
-  gap: 60px;
-  margin: 80px;
-  width: 1280px;
+  gap: 40px;
+  margin-top: 40px;
+  margin-left: 45px;
+  margin-right: 0px;
+  width: 94%;
   justify-items: center; /* center cards inside grid */
 }
 
 /* Section Cards */
 section {
   background: rgb(255, 250, 25);
-  padding: 30px;
+  margin-top: 20px;
+  padding: 40px;
   width: 300px;
-  border-radius:15px;
+  border-radius:25px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   transition: 0.3s;
 }
@@ -73,6 +79,52 @@ button:hover {
   background: #023e8a;
 }
 
+/* Nav-buttons container */
+.nav-buttons {
+  display: flex;
+  width: 100%; /* full width to allow space-between */
+  justify-content: space-between; /* About left, Contact right */
+  align-items: center;
+}
+
+/* Common button style */
+.nav-buttons button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer; 
+  font-size: 1rem;
+  transition: 0.3s;
+  font-weight: bold;
+  color: white;
+}
+
+/* About button */
+.btn-about {
+  background-color: #02e202; 
+  color: white;
+  margin-left: 50px;
+}
+
+.btn-about:hover {
+  background-color: white;
+  color: #0adf15;
+  border: 2px solid #00cc99;
+}
+
+/* Contact button */
+.btn-contact {
+  background-color: #02e202; 
+  color: white;
+  margin-right: 50px
+}
+
+.btn-contact:hover {
+  background-color: white;
+  color: #0adf15;
+  border: 2px solid #00cc99;
+}
+
 /* Quiz Area */
 .quiz-area {
   display: flex;
@@ -100,12 +152,11 @@ button:hover {
   background: rgb(245, 245, 55);
   padding: 20px;
   width: 85%;     
-  max-width: 1200px;
-  min-height: 500px;    
+  max-width: 1000px;
+  min-height: 300px;    
   border-radius: 15px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   transition: 0.3s;
-
   display: flex;
   flex-direction: column;
   gap: 0px; 
@@ -116,6 +167,7 @@ button:hover {
   word-wrap: break-word;   
 
   margin: 0 auto;          /* ⬅ keep it centered horizontally */
+  margin-left: 180px;   
   animation: fadeIn 0.4s ease-in-out;
 }
 
