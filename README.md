@@ -28,12 +28,15 @@ An interactive web-based quiz platform built with **HTML, CSS, and JavaScript**,
 ## 📂 Project Structure  
 SmartQuiz/
 │
+├── about.html # About project
+├── contact.html # Contact author(me-Arghadip Dalui)
 ├── index.html # Homepage (Select quiz category)
-├── quiz.html # Quiz interface
-├── style.css # Stylesheet
-├── script.js # Dynamic logic for quiz handling
 ├── preview.png # Homepage picture
-└── README.md # Project details
+├── questions.json # Quiz questions
+├── quiz.html # Quiz interface
+├── README.md # Project details
+├── script.js # Dynamic logic for quiz handling
+└── style.css # Stylesheet
 
 ---
 
